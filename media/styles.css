@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+
+.btn {
+border: none;
+background-color: inherit;
+padding: 0px 0px;
+font-size: 16px;
+cursor: pointer;
+width: 85px;
+height:0px;
+}
+.btn:hover {background: grey; opacity: 0.6;}
+.navbar {
+overflow: hidden;
+background-color: grey; opacity: 0.6;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0px;
+}
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 9px 16px;
+text-decoration: none;
+}
+.dropdown {
+float: left;
+overflow: hidden;
+}
+.dropdown .dropbtn {
+font-size: 16px;    
+border: none;
+outline: none;
+color: white;
+padding: 9px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color:#37474F
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+.dropdown-content a:hover {
+background-color: grey
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.tree {
+background-color: #4FC3F7;
+background: url(terry-tan-de-hao-300011-unsplash.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.video {
+background-color: #4FC3F7;
+background: url(IMG_3956.JPG) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+.watercolor {
+background-color: #4FC3F7;
+background: url(alice-achterhof-85968-unsplash.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+.watercolor {
+font-size: 20px;
+font-family: 'Cookie', cursive;
+color: black;
+text-align: left;
+}
+h2 {
+font-size: 20px;
+font-family: 'Cookie', cursive;
+color: white;
+text-align: left;
+}
+#menu {
+display: flex;
+}
+h1 {
+font-size: 60px;
+font-family: 'Cookie', cursive;
+color: black;
+text-align:center;
+}
+h3 {font-size: 30px;
+font-family: 'Special Elite', cursive;
+color: black;
+text-align:center;
+}
+#ourmanna-verse {
+padding: 5px;
+margin:100px;
+background: rgba(0, 0, 0, 0.3);
+border-color: rgba(0, 0, 0, 0.3);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+#mannaverse {
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+#mannaverse-reference:before {
+content: "- ";
+}
+#mannaverse-reference {
+text-align: left;
+font-size: 18px;
+}
+#mannaverse-version {
+color: #black;
+}
+                         h3 {font-size: 30px;
+                            font-family: 'Special Elite', cursive;
+                            color: black;
+                            text-align:center;
+                          }
+
+ .container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 60%;
+  height: auto;
+}
