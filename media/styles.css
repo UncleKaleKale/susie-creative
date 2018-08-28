@@ -189,7 +189,31 @@ text-align: left;
 background-color: #4CAF50;
 color: white;
 
+
 }
+#customers2 {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+#customers2 td, #customers2 th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+#customers2 tr:nth-child(even){background-color: #f1f1f1f1;}
+#customers2 tr:nth-child(odd){background-color: #f1f1f1f1;}
+
+#customers2 th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: grey;
+color: white;
+
+
+}
+
+
 div.susie-gallery {
 margin: 5px;
 border: 1px solid #ccc;
