@@ -86,15 +86,31 @@
       </div>
    </div>
    <!-- <p class="c"> Video 1: Understanding Value (Light and Dark) </p>-->
+<script>
+  var youTubeURL = 'http://gdata.youtube.com/feeds/api/videos/oHg5SJYRHA0?v=2&alt=json';
+  var json = (function() {
+      var json = null;
+      $.ajax({
+          'async': false,
+          'global': false,
+          'url': "https://www.youtube.com/embed/qNawqTqUrP0",
+          'dataType': "json",
+          'success': function(data) {
+              json = data;
+          }
+      });
+      return json;
+  })();
+</script>
 <div class="videos-wrapper">
   <div class="videos">
     <div class="video-wrapper">
       <iframe width="300" height="235" src="https://www.youtube.com/embed/qNawqTqUrP0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      <div class="description">HI</div>
+      <div class="description">1. Understanding Value (Light and Dark) and Drawing Value Scales</div>
     </div>
     <div class="video-wrapper">
       <iframe width="300" height="235" src="https://www.youtube.com/embed/r2psNg2_UIw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      <div class="description">HI</div>
+      <div class="description">2. Setting A Ground Drawing Tutorial</div>
     </div>
     
   </div>

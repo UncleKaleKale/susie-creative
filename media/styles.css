@@ -433,11 +433,12 @@ h4 {
 }
 
 .description {
-    width: calc(100% - 10px);
+    width: 290px;
     background: White;
     text-align: center;
     padding: 5px;
-    margin-top: 10px
+    margin-top: 10px;
+    height: 40px;
 }
 .content{
     white-space: nowrap; 
