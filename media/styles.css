@@ -416,23 +416,35 @@ h4 {
     text-align: center;
 }
 .videos {
-  display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
-  margin: 10px auto;
-  grid-gap: 10px !important;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .videos * {
     margin: 0 auto;
 }
+.video-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 5px;
+}
 
+.description {
+    width: calc(100% - 10px);
+    background: White;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px
+}
 .content{
     white-space: nowrap; 
     width: 200px; 
     border: 1px solid #000000;
     overflow: hidden;
     text-overflow: clip;
-
-
 }
 
 h6{
@@ -479,4 +491,4 @@ p.c {
 
         p.c {
             word-wrap: break-word;
-*/
+*/ 
