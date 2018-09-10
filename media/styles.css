@@ -454,9 +454,29 @@ p.b {
 
 
 
+
         p.b {
             word-wrap: break-word;
         }
                     ul  {
                 list-style: dot inside url;
             }
+
+
+//*
+p.c {
+            max-width: 300px; 
+            border: 5px solid white;
+            background-color: white;
+            margin-left: 0;
+            margin-right: 0;
+            text-align:center;
+            padding:5px;
+        }
+
+
+
+
+        p.c {
+            word-wrap: break-word;
+*/
