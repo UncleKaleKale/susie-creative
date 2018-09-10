@@ -144,6 +144,31 @@ h2 {
     margin-left: 20px !important;
     padding-top: 0px;
 }
+.susie-creative-button {
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    color: white;
+    text-align: left;
+    margin: 10px !important;
+    padding-top: 0px;
+    text-decoration: none;
+}
+.susie-creative-button:hover {
+    color: silver;
+}
+.susie-creative-button-dark {
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    color: black;
+    text-align: left;
+    margin: 10px !important;
+    padding-top: 0px;
+    text-decoration: none;
+}
+.susie-creative-button-dark:hover {
+    color: darkgrey;
+}
+
 h5 {font-size: 20px;
     font-family: 'Cookie', cursive;
     color: black;
